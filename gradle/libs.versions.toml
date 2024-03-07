@@ -1,0 +1,62 @@
+[versions]
+
+agp = "8.2.0"
+androidx-activity = "1.8.2"
+androidx-lifecycle = "2.7.0"
+appcompat-v7 = "28.0.0"
+appyx = "2.0.0-alpha09"
+arrow = "1.2.3"
+build-konfig = "0.14.0"
+compose = "1.6.0"
+composeCompiler = "1.5.3"
+espresso-core = "3.0.2"
+junit = "4.13.2"
+kotlin = "1.9.21"
+ktor = "2.3.9"
+lifecycle-runtime-ktx = "2.7.0"
+multiplatform-settings = "1.1.1"
+runner = "1.0.2"
+serialization = "1.6.0"
+sqldelight = "2.0.1"
+
+[libraries]
+
+h2 = { module = "com.h2database:h2" , version = "2.2.220" }
+postgresql = { module = "org.postgresql:postgresql", version = "42.5.1" }
+logback = { module = "ch.qos.logback:logback-classic", version = "1.5.3" }
+kotlinx-serialization = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version = "1.6.3" }
+kotlinx-coroutines = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version = "1.8.0" }
+kotlinx-coroutines-swing = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-swing", version = "1.8.0" }
+kotlinx-util-io = { module = "org.jetbrains.kotlin:kotlin-util-io", version.ref = "kotlin" }
+
+
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "androidx-activity" }
+androidx-compose-runtime = { group = "androidx.compose.runtime", name = "runtime" }
+androidx-compose-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-compose-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+androidx-compose-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+androidx-compose-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+androidx-compose-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-compose-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+androidx-core-splashscreen = { group = "androidx.core", name = "core-splashscreen", version = "1.0.1" }
+androidx-lifecycle-viewmodel = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "androidx-lifecycle" }
+material3 = { group = "androidx.compose.material3", name = "material3" }
+
+multiplatform-settings-no-args = { group = "com.russhwolf", name = "multiplatform-settings-no-arg", version.ref = "multiplatform-settings" }
+multiplatform-settings-serialization = { group = "com.russhwolf", name = "multiplatform-settings-serialization", version.ref = "multiplatform-settings" }
+
+#aurora-window = { group = "org.pushing-pixels", name = "aurora-window", version.ref = "aurora" }
+#aurora-theming = { group = "org.pushing-pixels", name = "aurora-theming", version.ref = "aurora" }
+#aurora-component = { group = "org.pushing-pixels", name = "aurora-component", version.ref = "aurora" }
+
+#moko-resources-core = { group = "dev.icerock.moko", name = "resources", version.ref = "moko" }
+#moko-resources-compose = { group = "dev.icerock.moko", name = "resources-compose", version.ref = "moko" }
+#moko-resources-test = { group = "dev.icerock.moko", name = "resources-test", version.ref = "moko" }
+
+sqldelight-coroutines = { group = "app.cash.sqldelight", name = "coroutines-extensions", version.ref = "sqldelight" }
+sqldelight-runtime = { group = "app.cash.sqldelight", name = "runtime", version.ref = "sqldelight" }
+sqldelight-jdbc-driver = { group = "app.cash.sqldelight", name = "jdbc-driver", version.ref = "sqldelight" }
+sqldelight-sqlite-driver = { group = "app.cash.sqldelight", name = "sqlite-driver", version.ref = "sqldelight" }
+
+arrow-core = { module = "io.arrow-kt:arrow-core", version.ref = "arrow" }
+arrow-fx-coroutines = { module = "io.arrow-kt:arrow-fx-coroutines", version.ref = "arrow" }
